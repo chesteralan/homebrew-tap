@@ -2,25 +2,25 @@ class ReactAuditor < Formula
   desc "Fast Rust-based linter for React, TypeScript, and web security"
   homepage "https://github.com/chesteralan/react-auditor"
   license "MIT"
-  version "react-auditor-v0.5.1"
+  version "react-auditor-v0.5.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.1/react-auditor-aarch64-apple-darwin-vreact-auditor-v0.5.1.tar.gz"
-      sha256 "a56e7b1034a238473e0a739c580228a6a7038609e6636ffcd28615de63e758bf"
+      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.2/react-auditor-aarch64-apple-darwin-vreact-auditor-v0.5.2.tar.gz"
+      sha256 "421e298e70f5f2c0d9a5e901b23771ac661fe808d9aa1e8f8523698c35092fda"
     else
-      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.1/react-auditor-x86_64-apple-darwin-vreact-auditor-v0.5.1.tar.gz"
-      sha256 "946ec97bca7fb4992bd8d5ad82590425e3d94d2bf801f056b332c101cab18bde"
+      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.2/react-auditor-x86_64-apple-darwin-vreact-auditor-v0.5.2.tar.gz"
+      sha256 "278112b1f309c5fc265949b498ab329948ee84eddd9847ac57f5d123575f05ad"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.1/react-auditor-aarch64-unknown-linux-gnu-vreact-auditor-v0.5.1.tar.gz"
-      sha256 "f624f82eb170baa6e8a66d1f2a163cbfb6ec0c1d30497f583c2d6443e71c9d87"
+      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.2/react-auditor-aarch64-unknown-linux-gnu-vreact-auditor-v0.5.2.tar.gz"
+      sha256 "e61cf95f792bf2504982e6d53a9455222badb507f7c8dfac318c3b147c62a5dc"
     else
-      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.1/react-auditor-x86_64-unknown-linux-gnu-vreact-auditor-v0.5.1.tar.gz"
-      sha256 "764df455e4237b3397f77819316755df7c1e08d25cc02d583082a37de8edc066"
+      url "https://github.com/chesteralan/react-auditor/releases/download/vreact-auditor-v0.5.2/react-auditor-x86_64-unknown-linux-gnu-vreact-auditor-v0.5.2.tar.gz"
+      sha256 "712b43b23db7d474c2051da8241ec57846708e71c35e99ad8cd85eecdcd4f4cd"
     end
   end
 
